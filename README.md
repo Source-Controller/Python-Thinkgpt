@@ -1,4 +1,4 @@
-# ThinkGPT 🧠🤖
+# ThinkGPT <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:91.95064629847238% 85.95769682726204%;background-size:5418.75% 5418.75%" data-codepoints="1f9e0"></span></span><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:73.97179788484137% 83.96004700352526%;background-size:5418.75% 5418.75%" data-codepoints="1f916"></span></span>
 ThinkGPT is a Python library aimed at implementing Chain of Thoughts for Large Language Models (LLMs), prompting the model to think, reason, and to create generative agents. 
 The library aims to help with the following:
 * solve limited context with long memory and compressed knowledge
@@ -6,24 +6,24 @@ The library aims to help with the following:
 * add intelligent decisions to your code base
 
 
-## Key Features ✨
+## Key Features <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:99.94124559341951% 2.056404230317274%;background-size:5418.75% 5418.75%" data-codepoints="2728"></span></span>
 * Thinking building blocks 🧱:
-    * Memory 🧠: GPTs that can remember experience
-    * Self-refinement 🔧: Improve model-generated content by addressing critics
-    * Compress knowledge 🌐: Compress knowledge and fit it in LLM's context either by anstracring rules out of observations or summarize large content
-    * Inference 💡️: Make educated guesses based on available information
-    * Natural Language Conditions 📝: Easily express choices and conditions in natural language
-* Efficient and Measurable GPT context length 📐
-* Extremely easy setup and pythonic API 🎯 thanks to [DocArray](https://github.com/docarray/docarray)
+    * Memory <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:91.95064629847238% 85.95769682726204%;background-size:5418.75% 5418.75%" data-codepoints="1f9e0"></span></span>: GPTs that can remember experience
+    * Self-refinement <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:55.99294947121034% 14.042303172737954%;background-size:5418.75% 5418.75%" data-codepoints="1f527"></span></span>: Improve model-generated content by addressing critics
+    * Compress knowledge <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:12.044653349001175% 28.025851938895418%;background-size:5418.75% 5418.75%" data-codepoints="1f310"></span></span>: Compress knowledge and fit it in LLM's context either by anstracring rules out of observations or summarize large content
+    * Inference <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:50% 44.00705052878966%;background-size:5418.75% 5418.75%" data-codepoints="1f4a1"></span></span>️: Make educated guesses based on available information
+    * Natural Language Conditions <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:51.99764982373678% 71.97414806110459%;background-size:5418.75% 5418.75%" data-codepoints="1f4dd"></span></span>: Easily express choices and conditions in natural language
+* Efficient and Measurable GPT context length <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:51.99764982373678% 46.00470035252644%;background-size:5418.75% 5418.75%" data-codepoints="1f4d0"></span></span>
+* Extremely easy setup and pythonic API <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:18.037602820211514% 36.01645123384254%;background-size:5418.75% 5418.75%" data-codepoints="1f3af"></span></span> thanks to [DocArray](https://github.com/docarray/docarray)
 
-## Installation 💻
+## Installation <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:51.99764982373678% 4.054054054054054%;background-size:5418.75% 5418.75%" data-codepoints="1f4bb"></span></span>
 You can install ThinkGPT using pip:
 
 ```shell
-pip install git+https://github.com/alaeddine-13/thinkgpt.git
+pip install git+https://github.com/followDev/Python-Thinkgpt.git
 ```
 
-## API Documentation 📚
+## API Documentation <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:51.99764982373678% 65.98119858989423%;background-size:5418.75% 5418.75%" data-codepoints="1f4da"></span></span>
 ### Basic usage:
 ```python
 from thinkgpt.llm import ThinkGPT
@@ -157,7 +157,7 @@ llm.select(
 ```
 
 You can also prompt the LLM to choose an exact number of answers using `num_choices`. By default, it's set to `None` which means the LLM will select any number he thinks it's correct.
-## Use Cases 🚀
+## Use Cases <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:67.97884841363103% 34.01880141010576%;background-size:5418.75% 5418.75%" data-codepoints="1f680"></span></span>
 Find out below example demos you can do with `thinkgpt`
 ### Teaching ThinkGPT a new language
 ```python
